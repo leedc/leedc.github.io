@@ -1,1 +1,1 @@
-alert('aaa');
+alert(window.location.search);
