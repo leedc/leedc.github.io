@@ -137,10 +137,14 @@ body {
   .masthead {
     position: fixed;
     top: 0;
+    z-index: 100;
+    background-color: #333;
   }
   .mastfoot {
     position: fixed;
     bottom: 0;
+    z-index: 100;
+    background-color: #333;
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
@@ -152,6 +156,11 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
+  .cover {
+      z-index: 50;
+      margin: 100px auto;
+  }
+
 }
 
 @media (min-width: 992px) {
