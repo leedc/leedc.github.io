@@ -132,6 +132,10 @@ body {
  * Affix and center
  */
 
+ .mastfoot {
+   position: relative;
+   bottom: 0;
+ }
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
@@ -139,6 +143,8 @@ body {
     top: 0;
   }
   .mastfoot {
+    position: fixed;
+    bottom: 0;
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
