@@ -125,7 +125,7 @@ body {
 .mastfoot {
   position: relative;
   bottom: 0;
-
+  
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
 }
@@ -138,7 +138,7 @@ body {
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: relative;
+    position: fixed;
     top: 0;
   }
   .mastfoot {
