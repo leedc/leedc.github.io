@@ -1,0 +1,9 @@
+{
+    "type": "sftp",
+    "host": "192.168.31.189",
+    "username": "dodge",
+    "password": "li1992",
+    "port": 22,
+    "remotePath": "/var/www/html",
+    "uploadOnSave": false
+}
